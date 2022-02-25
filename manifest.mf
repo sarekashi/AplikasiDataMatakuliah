@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: datamatakuliah.DataMatakuliah
+Class-Path: ../lib/mariadb-java-client-3.0.3.jar
