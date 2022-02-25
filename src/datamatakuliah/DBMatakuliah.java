@@ -31,7 +31,7 @@ public class DBMatakuliah {
     /**
      * Method ini digunakan untuk menyusun query ambil data dari DB.
      * 
-     * @return Ini mengembalikan daftar Objek Matakuliah {@link List<Matakuliah#Matakuliah(String, String, int, String)>}
+     * @return Ini mengembalikan daftar Objek Matakuliah {@link List}
      * @throws SQLException
      */
     public List<Matakuliah> list() throws SQLException {
@@ -44,7 +44,7 @@ public class DBMatakuliah {
      * secara spesifik.
      * 
      * @param keyword
-     * @return Ini mengembalikan daftar Objek Matakuliah {@link List<Matakuliah#Matakuliah(String, String, int, String)>}
+     * @return Ini mengembalikan daftar Objek Matakuliah {@link List}
      * @throws SQLException
      */
     public List<Matakuliah> list(String keyword) throws SQLException {
